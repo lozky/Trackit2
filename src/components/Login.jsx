@@ -39,7 +39,8 @@ const Login = () => {
   return (
     <div className="formu container col-4 d-flex justify-content-center align-items-center">
       <form onSubmit={funAuth}>
-        <h4 className="text-center mb-4">Welcome To Trackit</h4>
+        <h4 className="text-center mb-4">Registro
+        </h4>
 
         {error && <p className="text-danger">{error}</p>} {/* Mostrar errores */}
 
